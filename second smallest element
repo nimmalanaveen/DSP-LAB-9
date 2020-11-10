@@ -1,0 +1,7 @@
+n=int(input("size:"))
+ar=[]
+for i in range(n):
+    k=int(input())
+    ar.append(k)
+ar.sort()
+print(ar[1])
